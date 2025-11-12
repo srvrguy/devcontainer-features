@@ -1,0 +1,20 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "DavidAnson.vscode-markdownlint",
+        "ms-vscode-remote.remote-containers",
+        "SanjulaGanepola.github-local-actions"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers-extra/features/pre-commit:2": {},
+    "ghcr.io/devcontainers-extra/features/act:1": {},
+    "ghcr.io/eliises/devcontainer-features/devcontainers-cli:1": {}
+  },
+  "postCreateCommand": "/bin/bash -ex ./.devcontainer/setup.sh"
+}

@@ -1,0 +1,16 @@
+{
+    "test_debian": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "kluctl": {}
+        }
+    },
+    "test_specific_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "kluctl": {
+                "version": "2.26.0"
+            }
+        }
+    }
+}
