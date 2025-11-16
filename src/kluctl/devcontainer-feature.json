@@ -1,15 +1,19 @@
 {
     "id": "kluctl",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "kluctl (via Github Releases)",
-    // "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/opentofu",
+    "documentationURL": "https://github.com/srvrguy/devcontainer-features/tree/main/src/kluctl",
     "description": "Kluctl is the missing glue that puts together your (and any third-party) deployments into one large declarative Kubernetes deployment, while making it fully manageable (deploy, diff, prune, delete, …) via one unified command line interface.",
+    "keywords": ["kubernetes", "kustomize", "kluctl"],
     "options": {
         "version": {
             "default": "latest",
             "description": "Select the version to install.",
             "proposals": [
-                "latest"
+                "latest",
+                "devel",
+                "2.27.0",
+                "2.26.0"
             ],
             "type": "string"
         }
