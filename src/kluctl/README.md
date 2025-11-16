@@ -25,7 +25,7 @@ Kluctl is the missing glue that puts together your (and any third-party) deploym
 - `redhat.vscode-yaml`
 - `samuelcolvin.jinjahtml`
 
-This is a test notes file.
+
 
 ---
 
